@@ -6,12 +6,13 @@
 /*   By: mvachera <mvachera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/19 16:52:14 by mvachera          #+#    #+#             */
-/*   Updated: 2023/12/19 17:49:26 by mvachera         ###   ########.fr       */
+/*   Updated: 2024/02/20 19:49:57 by mvachera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <cctype>
 #include <iostream>
+#include <string>
 
 int	ft_toupper(int c)
 {
