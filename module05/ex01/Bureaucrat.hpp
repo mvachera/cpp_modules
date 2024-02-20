@@ -1,0 +1,56 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Bureaucrat.hpp                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mvachera <mvachera@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/01/21 18:38:47 by mvachera          #+#    #+#             */
+/*   Updated: 2024/01/26 16:53:26 by mvachera         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#ifndef BUREAUCRAT_HPP
+# define BUREAUCRAT_HPP
+
+# include <iostream>
+# include "Form.hpp"
+
+class Form;
+
+class Bureaucrat
+{
+	public:
+		Bureaucrat();
+		Bureaucrat(const std::string& name, int grade);
+		Bureaucrat(const Bureaucrat& other);
+		~Bureaucrat();
+
+		class GradeTooHighException : public std::exception
+		{
+			public:
+				const char* what() const throw();
+		};
+
+		class GradeTooLowException : public std::exception
+		{
+			public:
+				const char* what() const throw();
+		};
+
+		Bureaucrat&	operator=(const Bureaucrat& other);
+
+		const std::string	getName() const;
+		int			getGrade() const;
+		void		increment();
+		void		decrement();
+
+		void	signForm(Form& form);
+	private:
+		const std::string	name;
+		int	grade;
+};
+
+std::ostream& operator<<(std::ostream& os, const Bureaucrat& bureaucrat);
+
+#endif
