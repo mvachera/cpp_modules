@@ -6,14 +6,15 @@
 /*   By: mvachera <mvachera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/01 19:44:44 by mvachera          #+#    #+#             */
-/*   Updated: 2024/02/02 17:30:02 by mvachera         ###   ########.fr       */
+/*   Updated: 2024/02/27 13:17:56 by mvachera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef WHATEVER_HPP
 # define WHATEVER_HPP
 
-#include <iostream>
+# pragma once
+# include <iostream>
 
 template<typename T>
 void	swap(T &a, T &b)

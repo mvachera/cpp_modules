@@ -6,13 +6,14 @@
 /*   By: mvachera <mvachera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/28 17:36:39 by mvachera          #+#    #+#             */
-/*   Updated: 2023/12/28 19:41:01 by mvachera         ###   ########.fr       */
+/*   Updated: 2024/02/27 13:16:55 by mvachera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef ZOMBIE_HPP
 # define ZOMBIE_HPP
 
+# pragma once
 # include <iostream>
 # include <string>
 # include <memory>

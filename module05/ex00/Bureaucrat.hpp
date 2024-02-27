@@ -6,13 +6,14 @@
 /*   By: mvachera <mvachera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/21 18:38:47 by mvachera          #+#    #+#             */
-/*   Updated: 2024/01/26 15:24:18 by mvachera         ###   ########.fr       */
+/*   Updated: 2024/02/27 13:17:30 by mvachera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef BUREAUCRAT_HPP
 # define BUREAUCRAT_HPP
 
+# pragma once
 # include <iostream>
 
 class Bureaucrat

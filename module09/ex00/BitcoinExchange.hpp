@@ -6,13 +6,14 @@
 /*   By: mvachera <mvachera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/07 18:38:04 by mvachera          #+#    #+#             */
-/*   Updated: 2024/02/15 16:16:14 by mvachera         ###   ########.fr       */
+/*   Updated: 2024/02/27 13:18:09 by mvachera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef BITCOINEXCHANGE_HPP
 # define BITCOINEXCHANGE_HPP
 
+# pragma once
 # include "iostream"
 # include "vector"
 # include "map"

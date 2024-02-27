@@ -6,13 +6,14 @@
 /*   By: mvachera <mvachera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/07 18:08:03 by mvachera          #+#    #+#             */
-/*   Updated: 2024/01/12 18:55:10 by mvachera         ###   ########.fr       */
+/*   Updated: 2024/02/27 13:17:17 by mvachera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef CLAPTRAP_HPP
 # define CLAPTRAP_HPP
 
+# pragma once
 # include <iostream>
 
 class ClapTrap

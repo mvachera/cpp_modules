@@ -6,13 +6,14 @@
 /*   By: mvachera <mvachera@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/27 20:19:07 by mvachera          #+#    #+#             */
-/*   Updated: 2024/02/07 17:51:40 by mvachera         ###   ########.fr       */
+/*   Updated: 2024/02/27 13:17:37 by mvachera         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef SCALARCONVERTER_HPP
 # define SCALARCONVERTER_HPP
 
+# pragma once
 # include <iostream>
 # include <string>
 # include <iomanip>
